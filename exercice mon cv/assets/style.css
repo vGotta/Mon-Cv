@@ -1,0 +1,337 @@
+
+/************Nav******************/
+
+nav {
+    background-color: rgb(16, 16, 16);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: yellow !important;
+}
+
+.navbar-light .navbar-brand {
+    color: yellow !important;
+}
+
+
+.align-start {
+    text-align: start;
+}
+
+#bio {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(190deg, rgb(242, 242, 201) 50%, rgb(234, 234, 151) 50%, rgb(233, 242, 114));
+    border-bottom: 2px solid black;
+    display: inline-block;
+    justify-content: center;
+    height: 15%;
+}
+
+.margin-b {
+    margin-top: 50px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(16, 16, 16);
+
+}
+
+/* Morph */
+.morph div img {
+    width: 70%;
+    height: 70%;
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.morph div:hover img {
+    width: 70%;
+    /* on affiche l'image au carré */
+    height: 70%;
+    border-radius: 50%;
+    /* on arrondit l'image */
+    -webkit-transform: rotate(360deg);
+    /* rotation de l'image */
+    transform: rotate(360deg);
+}
+
+
+#img {
+    background: linear-gradient(160deg, rgb(242, 242, 201) 50%, rgb(234, 234, 151) 50%, rgb(233, 242, 114));
+    color: white;
+}
+
+#size {
+    font-size: medium;
+    text-align: start;
+
+}
+
+#left {
+
+    background-color: rgb(16, 16, 16);
+    color: rgb(250, 250, 250);
+}
+
+h2 {
+    text-align: start;
+    text-decoration: underline yellow;
+
+}
+
+.mb-3 {
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+}
+
+#center2 {
+    display: flex;
+    justify-content: center;
+}
+
+.size {
+    font-size: xx-large;
+}
+
+#align {
+    display: flex;
+    justify-content: center;
+}
+
+#align ul {
+    list-style-position: inside;
+
+}
+
+#align ul li {
+    padding: 0;
+}
+
+.bor {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(16, 16, 16);
+}
+
+
+/*******************Timeline**************/
+.timeline {
+    color: rgb(255, 255, 255);
+    border-left: 3px solid yellow;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgb(16, 16, 16);
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+    color: rgb(0, 0, 0);
+}
+
+.timeline .event:before {
+    color: rgb(0, 0, 0);
+    text-decoration: underline yellow;
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+/************FORM************/
+
+.card {
+    background: linear-gradient(190deg, rgb(242, 242, 201) 50%, rgb(234, 234, 151) 50%, rgb(233, 242, 114));
+    background-size: cover;
+}
+
+.color-white {
+    color: white;
+}
+
+/**************Formation***************/
+
+#formation{
+    color: white;
+    background: linear-gradient(160deg, rgb(242, 242, 201) 50%, rgb(234, 234, 151) 50%, rgb(233, 242, 114));
+    align-items: center;
+}
+.border{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    background-color: rgb(16, 16, 16);
+}
+
+/************Formulaire**************/
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+
+.bg-yellow {
+    background: linear-gradient(160deg, rgb(242, 242, 201) 50%, rgb(234, 234, 151) 50%, rgb(233, 242, 114));
+
+}
+
+.bg-color {
+    background: linear-gradient(0.25turn, #525454, #121212, #121212, #525454);
+}
+
+/****************Animation****************/
+
+
+.inline {
+    display: inline-block;
+}
+
+.anim {
+
+    display: inline-block;
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
+    color: white;
+
+
+}
+
+#Contacter a {
+    text-decoration: underline yellow;
+}
+/***************Footer***************/
+footer {
+    text-align: center;
+    color: white;
+    background: linear-gradient(0.25turn, #525454, #121212, #121212, #525454);
+    height: 100px;
+}
+
+footer img {
+    width: 50px;
+
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+}
+
+/*************Responsiv***************/
+
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+
+    }
+
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+@media (max-width: 991px) {
+
+    #left{
+        position: initial !important;
+         height: 100%;
+         width: 100%;
+         text-align: center
+    }
+    .align-start{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .morph div img {
+        width: 30%;
+        height: 30%;
+        }
+}
+@media (max-width: 5000px){
+
+    #left{ 
+        position: fixed;
+
+    }
+}
+@media (max-width: 300px){
+    #footer{
+        display: block;
+    
+    }
+}
+
