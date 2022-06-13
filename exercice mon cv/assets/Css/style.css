@@ -13,7 +13,10 @@ nav {
 .navbar-light .navbar-brand {
     color: yellow !important;
 }
-
+.navbar-nav img{
+    width: 50px;
+    
+}
 
 .align-start {
     text-align: start;

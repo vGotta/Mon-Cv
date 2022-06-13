@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/Css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+    
     <main class="bg-color container-fluid">
         <section class="row ">
             <div id="left" class="col-lg-2 col-12 col-md-12 m-0 d-lg-block h-100">
@@ -23,27 +23,27 @@
                 </div>
                 <section id="size" class="">
                     <article class="align-start">
-                        <h2 class="align-start">Nom</h2>
-                        <p>GOTTA</p>
-                        <H2 class="align-start">Prenom</H2>
+                        <h2 id="Nom" class="align-start ">Nom</h2>
+                        <p >GOTTA</p>
+                        <H2 id="Prenom" class="align-start">Prenom</H2>
                         <p>Vincent</p>
                     </article>
                     <article class="align-start">
-                        <h2 class="align-start">Poste</h2>
-                        <p>Développeur Web</p>
+                        <h2 id="Poste" class="align-start">Poste</h2>
+                        <p id="Poste1">Développeur Web</p>
                     </article>
                     <article class="align-start">
-                        <h2 class="align-start">Adresse</h2>
+                        <h2 id="Adresse" class="align-start">Adresse</h2>
                         <p>310 Avenue saint Roch</p>
                         <p>83790 PIGNANS</p>
                     </article>
                     <article class="align-start">
-                        <h2 class="align-start">Téléphone</h2>
+                        <h2 id="Tel" class="align-start">Téléphone</h2>
                         <p>06-35-34-48-48</p>
                     </article>
                     <article class="align-start">
-                        <h2 class="align-start">Langues</h2>
-                         <p>Français / Anglais technique</p>
+                        <h2 id="Langue" class="align-start">Langues</h2>
+                         <p id="Langue1">Français / Anglais technique</p>
                     </article>
 
 
@@ -65,6 +65,8 @@
                                 <a class="nav-link" href="#Exp">Expériences</a>
                                 <a class="nav-link" href="#form">Formations</a>
                                 <a class="nav-link" href="#Contacter">Contact</a>
+                              <div onclick="trad()"><img src="assets/images/225-parler-anglais-francais-nalliers-welcome.jpeg" alt="flag"></div>
+                              <div onclick="light()"><img src="assets/images/light mode.png" alt="light"></div>
                             </div>
                         </div>
                     </div>
@@ -98,32 +100,32 @@
                 <section id="img" class="container-fluid">
                     <div class="row d-flex justify-content-center">
                         <article class=" col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Travail d'équipes</h3>
+                            <h3 class="tab1">Travail d'équipes</h3>
                             <div class="bor row p-5">
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Communication</li>
-                                    <li class="">Responsabilité</li>
-                                    <li class="">Honnêteté</li>
+                                    <li class="tab1">Communication</li>
+                                    <li class="tab1">Responsabilité</li>
+                                    <li class="tab1">Honnêteté</li>
                                 </ul>
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Écoute active</li>
-                                    <li class="">Empathie</li>
-                                    <li class="">Collaboration</li>
+                                    <li class="tab1">Écoute active</li>
+                                    <li class="tab1">Empathie</li>
+                                    <li class="tab1">Collaboration</li>
                                 </ul>
                             </div>
                         </article>
                         <article class="row  col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Gestion de premier secours</h3>
+                            <h3 class="tab1" >Gestion de premier secours</h3>
                             <div class="bor row p-5">
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">L'etouffement</li>
-                                    <li class="">Le saignement</li>
-                                    <li class="">l'inconsience</li>
+                                    <li class="tab1">L'etouffement</li>
+                                    <li class="tab1">Le saignement</li>
+                                    <li class="tab1">l'inconsience</li>
                                 </ul>
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Le malaise cardiaque</li>
-                                    <li class="">les gestes de secours</li>
-                                    <li class="">la défribillation</li>
+                                    <li class="tab1">Le malaise cardiaque</li>
+                                    <li class="tab1">les gestes de secours</li>
+                                    <li class="tab1">la défribillation</li>
                                 </ul>
                             </div>
                         </article>
@@ -131,30 +133,30 @@
                     </div>
                     <div class="row d-flex justify-content-center">
                         <article class=" col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Gestion des conflits</h3>
+                            <h3 class="tab1">Gestion des conflits</h3>
                             <div class="bor row p-5">
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Connaître et identifier les types de conflit</li>
-                                    <li class="">Identifier et gérer les comportements difficiles</li>
-                                    <li class="">Créer les conditions favorisant la coopération</li>
+                                    <li class="tab1">Connaître et identifier les types de conflit</li>
+                                    <li class="tab1">Identifier et gérer les comportements difficiles</li>
+                                    <li class="tab1">Créer les conditions favorisant la coopération</li>
                                 </ul>
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Déployer l’intelligence émotionnelle</li>
-                                    <li class="">Gérer la sortie de conflit</li>
+                                    <li class="tab1">Déployer l’intelligence émotionnelle</li>
+                                    <li class="tab1">Gérer la sortie de conflit</li>
                                 </ul>
                             </div>
                         </article>
                         <article class="row col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Gestion PC Sécurité</h3>
+                            <h3 class="tab1">Gestion PC Sécurité</h3>
                             <div class="bor row p-5">
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Alerter sa hiérarchie à bon escient</li>
-                                    <li class="">Analyser les situations et les comportements en salles de jeux.</li>
-                                    <li class="">Analyser une bande enregistrée en isolant les faits significatifs.</li>
+                                    <li class="tab1">Alerter sa hiérarchie à bon escient</li>
+                                    <li class="tab1">Analyser les situations et les comportements en salles de jeux.</li>
+                                    <li class="tab1">Analyser une bande enregistrée en isolant les faits significatifs.</li>
                                 </ul>
                                 <ul class="col-lg-6 col-md-10 col-10">
-                                    <li class="">Anticiper les dysfonctionnements et incidents.</li>
-                                    <li class="">Décrypter le sens d'une image ou d'un son.</li>
+                                    <li class="tab1">Anticiper les dysfonctionnements et incidents.</li>
+                                    <li class="tab1">Décrypter le sens d'une image ou d'un son.</li>
                                 </ul>
                             </div>
                         </article>
@@ -174,19 +176,19 @@
                                         <ul class=" timeline">
                                             <li class="event" data-date="2014-2015">
                                                 <h3 class="color-white">CQP APS</h3>
-                                                <p>Agents de sécurité Magasin/Gardiennage/Evénementiel</p>
+                                                <p class="trad">Agents de sécurité Magasin/Gardiennage/Evénementiel</p>
                                             </li>
                                             <li class="event" data-date="2015">
                                                 <h3 class="color-white">SSIAP 1</h3>
-                                                <p>Agent de sécurité incendie magasin</p>
+                                                <p class="trad">Agent de sécurité incendie magasin</p>
                                             </li>
                                             <li class="event" data-date="2016-2019">
                                                 <h3 class="color-white">SSIAP 1</h3>
-                                                <p>Agent de sécurité incendie Musée</p>
+                                                <p class="trad">Agent de sécurité incendie Musée</p>
                                             </li>
                                             <li class="event" data-date="2021">
                                                 <h3 class="color-white">SSIAP 1/ SSIAP 2</h3>
-                                                <p>Agents de sécurité incendie Musée/Evénmentiel/Magasin</p>
+                                                <p class="trad">Agents de sécurité incendie Musée/Evénmentiel/Magasin</p>
                                             </li>
                                         </ul>
                                     </div>
@@ -198,7 +200,7 @@
                         <h2 id="form" class="anim mt-5  mb-5"><a name="Formations"></a>Formations</h2>
                     <section id="formation" class="container-fluid">
                         <article class="row col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Formation sécurité</h3>
+                            <h3 class="trad">Formation sécurité</h3>
                             <div class="border row p-5">
                                 <ul class="col-lg-12 col-md-10 col-10">
                                     <li class="pt-4">2014 :  SSiAP 1/CQP APS-La Seyne</li>
@@ -209,7 +211,7 @@
                             </div>
                         </article>
                         <article class="row offset-lg-6 col-lg-6 col-md-10 col-10 p-5">
-                            <h3>Formation développement web </h3>
+                            <h3 class="trad">Formation développement web </h3>
                             <div class="border row p-5">
                                 <ul class="col-lg-12 col-md-10 col-10">
                                     <li class="pt-4">Formation Ri7-Aubagne</li>
@@ -229,7 +231,7 @@
                                     aria-describedby="emailHelp" placeholder="Enter email">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Message</label>
+                                <label class="Msg" for="exampleInputPassword1">Message</label>
                                 <input type="text*" style="height:100px;" class="form-control h-5"
                                     id="entrez votre Message">
                             </div>
@@ -252,7 +254,7 @@
         </section>
     </main>
 
-
+     <script src="assets/JS/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
